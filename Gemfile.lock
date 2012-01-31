@@ -28,7 +28,6 @@ GEM
     activesupport (3.2.1)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    addressable (2.2.6)
     arel (3.0.0)
     builder (3.0.0)
     coffee-rails (3.2.2)
@@ -43,10 +42,6 @@ GEM
       multi_json (~> 1.0)
     hike (1.2.1)
     i18n (0.6.0)
-    instagram (0.3.2)
-      addressable
-      nibbler (>= 1.2.0)
-      yajl-ruby
     journey (1.0.1)
     jquery-rails (2.0.0)
       railties (>= 3.2.0.beta, < 5.0)
@@ -58,13 +53,10 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     multi_json (1.0.4)
-    nibbler (1.3.0)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.1)
       rack (>= 0.4)
-    rack-protection (1.2.0)
-      rack
     rack-ssl (1.3.2)
       rack
     rack-test (0.6.1)
@@ -92,10 +84,6 @@ GEM
       railties (~> 3.2.0.beta)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-    sinatra (1.3.2)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
     sprockets (2.1.2)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -110,18 +98,15 @@ GEM
     uglifier (1.0.3)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
-    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   coffee-rails (= 3.2.2)
-  instagram
   jquery-rails (= 2.0.0)
   json
   rails (= 3.2.1)
   sass-rails (= 3.2.3)
-  sinatra
   sqlite3 (= 1.3.5)
   uglifier (= 1.0.3)

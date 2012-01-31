@@ -35,7 +35,3 @@ gem 'jquery-rails', '2.0.0'
 
 # To use debugger
 # gem 'ruby-debug'
-
-gem 'sinatra'
-
-gem 'instagram'
